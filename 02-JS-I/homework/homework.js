@@ -67,14 +67,21 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
- var x
+  var esPositivo = x;
+  var esPositivo = y;
+  if (x == y){
+    return true;
+  }  
+  return false;
 }
-  sonIguales (21,21);
+sonIguales(21,21);
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
+  return str1.length === str2.length;
+  
 }
 
 function menosQueNoventa(num) {
@@ -102,25 +109,29 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
+  return x % y;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+  
 }
+
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-}
+  
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
@@ -128,13 +139,15 @@ function elevarAlCubo(num) {
 }
 
 function elevar(num, exponent) {
-  // Devuelve el valor de "num" elevado al exponente dado en "exponent"
+  // Devuelve el valor de "num" elssevado al exponente dado en "exponent"
   // Tu código:
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+   
+   return num.math
 }
 
 function redondearHaciaArriba(num) {
@@ -245,4 +258,4 @@ module.exports = {
   areaDelTriangulo,
   deEuroAdolar,
   esVocal,
-};
+}

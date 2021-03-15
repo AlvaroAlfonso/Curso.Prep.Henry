@@ -1,0 +1,33 @@
+RESPUESTA HOMEWORK: INTRODUCCION JAVASCRIPT.
+
+VARIABLES:  es un elemento que se emplea para almacenar y hacer referencia a otro valor; 
+    sigue una logica similar a las variables usadas en otros ambitos ej.
+ EN MATEMATICAS: 3+5 = 8
+ EN PROGRAMACION: 
+    numero_1 = 3
+    numero_2 = 5
+    resultado = numero_1 + numero_2
+
+STRINGS: Son bloques de textos, cualquier texto es un string -> se reconoce porque
+    siempre esta entre comillas (pueden ser simples o dobles) ej: var nombreperro = 'mateo';
+
+FUNCIONES: es un conjunto de instrucciones que realiza un tarea o calcular un valor, para que
+    sea una funcion : debe tener alguna entrada y devolver una salida (debe existir una relacion
+    obvia entre la entrada y la salida);
+
+    para definir una funcion decesita del comando: function. seguido de:
+    * nombre de la funcion
+    * los parametros de la funcion (en parentesis y separado por comas)
+    * las declaraciones que definen la funcion  (encerrada en llaves ({})) 
+    Ej.
+    function square (number) {
+        return number * number;
+    }
+
+VALORES BOOLEANOS: permite decidir entre dos opciones (activar o desactivar, verdadero o falso) Ej:
+    var mencantajavascript= true;
+
+Declaraciones (If): Es un condicional que sirve para realizar una u otras operaciones en 
+función de una expresión. 
+
+    
